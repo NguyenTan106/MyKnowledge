@@ -42,100 +42,82 @@
 
 > 🔧 Được tổ chức dưới dạng Markdown giúp dễ chia sẻ, chuyển đổi sang blog, PDF hoặc dùng với các static site generator như **Docusaurus**, **Next.js (MDX)** hoặc **Astro**.
 
-MyKnowledge/
-├── cheatsheet/
-│ │ ├── git/
-│ │ │ ├── basic.md
-│ │ │ ├── common-target.md
-│ │ │ ├── common-error.md
-│ ├── markdown.md
-│ ├── regex.md
-│ ├── README.md
-├── daily-tips/
-│ ├── README.md
-├── idea/
-│ ├── README.md
-├── learning-plan/
-│ ├── README.md
-├── programming/
-│ ├── commons/
-│ │ ├── api.md
-│ │ ├── markdown.md
-│ │ ├── oop.md
-│ │ ├── restfulApi.md
-│ ├── languages/
-│ │ ├── c#/
-│ │ │ ├── frameworks/
-│ │ │ │ ├── tailwind.md
-│ │ │ ├── libraries/
-│ │ │ ├── basic.md
-│ │ ├── css/
-│ │ │ ├── frameworks/
-│ │ │ ├── libraries/
-│ │ │ ├── basic.md
-│ │ ├── html/
-│ │ │ ├── basic.md
-│ │ ├── java/
-│ │ │ ├── frameworks/
-│ │ │ ├── libraries/
-│ │ │ ├── basic.md
-│ │ ├── javascript/
-│ │ │ ├── frameworks/
-│ │ │ │ ├── nodejs.md
-│ │ │ │ ├── reactjs.md
-│ │ │ ├── libraries/
-│ │ │ ├── typesscript/
-│ │ │ │ ├── frameworks/
-│ │ │ │ │ ├── nodejs.md
-│ │ │ │ │ ├── reactjs.md
-│ │ │ │ ├── libraries/
-│ │ │ │ ├── basic.md
-│ │ │ ├── basic.md
-│ │ ├── python/
-│ │ │ ├── frameworks/
-│ │ │ │ ├── django.md
-│ │ │ ├── libraries/
-│ │ │ ├── basic.md
-│ │ ├── solidity/
-│ │ │ ├── frameworks/
-│ │ │ ├── libraries/
-│ │ │ ├── basic.md
-│ │ ├── sql/
-│ │ │ ├── nosql/
-│ │ │ ├── basic.md
-│ ├── theory/
-│ │ ├── algorithm/
-│ │ │ ├── commons/
-│ │ │ │ ├── search/
-│ │ │ │ │ ├── binary.md
-│ │ │ │ │ ├── linear.md
-│ │ │ │ ├── sort/
-│ │ │ │ │ ├── bubble.md
-│ │ │ │ │ ├── insertion.md
-│ │ │ │ │ ├── selection.md
-│ │ │ ├── machine-learning/
-│ │ │ │ │ ├── naive-bayes-classifier.md
-│ │ │ │ │ ├── tf-idf.md
-│ │ │ ├── binary-tree.md
-│ │ │ ├── dijkstra.md
-│ │ │ ├── hash.md
-│ │ │ ├── stack&queue.md
-│ │ ├── data-structure/
-│ │ ├── design-pattern/
-│ │ ├── software-architecture/
-│ ├── README.md
-├── project-notes/
-│ ├── personal/
-│ │ ├── blockchain/
-│ │ ├── e-commerce/
-│ ├── team/
-│ ├── README.md
-├── summary/
-│ ├── README.md
-├── tools/
-│ ├── docker.md
-│ ├── git.md
-│ ├── github.md
-│ ├── vscode.md
-│ ├── README.md
-├── README.md
+- [cheatsheet](cheatsheet/README.md)
+  - [tool](cheatsheet/tools/)
+    - [docker](cheatsheet/tools/docker/)
+    - [git](cheatsheet/git/)
+      - [basic.md](cheatsheet/git/basic.md)
+      - [common-target.md](cheatsheet/git/common-target.md)
+      - [common-error.md](cheatsheet/git/common-error.md)
+    - [vscode](cheatsheet/tools/vscode/)
+  - [markdown.md](cheatsheet/markdown.md)
+  - [regex.md](cheatsheet/regex.md)
+- [daily-tips](daily-tips/README.md)
+- [idea](idea/README.md)
+- [learning-plan](learning-plan/README.md)
+- [programming](programming/README.md)
+  - [commons](programming/commons/)
+    - [api.md](programming/commons/api.md)
+    - [markdown.md](programming/commons/markdown.md)
+    - [oop.md](programming/commons/oop.md)
+    - [restfulApi.md](programming/commons/restfulApi.md)
+  - [languages](programming/languages/)
+    - [c#](programming/languages/c#/)
+      - [frameworks](programming/languages/c#/frameworks/)
+        - [tailwind.md](programming/languages/c#/frameworks/tailwind.md)
+      - [libraries](programming/languages/c#/libraries/)
+      - [basic.md](programming/languages/c#/basic.md)
+    - [css](programming/languages/css/)
+      - [basic.md](programming/languages/css/basic.md)
+    - [html](programming/languages/html/)
+      - [basic.md](programming/languages/html/basic.md)
+    - [java](programming/languages/java/)
+      - [basic.md](programming/languages/java/basic.md)
+    - [javascript](programming/languages/javascript/)
+      - [frameworks](programming/languages/javascript/frameworks/)
+        - [nodejs.md](programming/languages/javascript/frameworks/nodejs.md)
+        - [reactjs.md](programming/languages/javascript/frameworks/reactjs.md)
+      - [typesscript](programming/languages/javascript/typesscript/)
+        - [frameworks](programming/languages/javascript/typesscript/frameworks/)
+          - [nodejs.md](programming/languages/javascript/typesscript/frameworks/nodejs.md)
+          - [reactjs.md](programming/languages/javascript/typesscript/frameworks/reactjs.md)
+        - [basic.md](programming/languages/javascript/typesscript/basic.md)
+      - [basic.md](programming/languages/javascript/basic.md)
+    - [python](programming/languages/python/)
+      - [frameworks](programming/languages/python/frameworks/)
+        - [django.md](programming/languages/python/frameworks/django.md)
+      - [basic.md](programming/languages/python/basic.md)
+    - [solidity](programming/languages/solidity/)
+      - [basic.md](programming/languages/solidity/basic.md)
+    - [sql](programming/languages/sql/)
+      - [nosql](programming/languages/sql/nosql/)
+      - [basic.md](programming/languages/sql/basic.md)
+  - [theory](programming/theory/)
+    - [algorithm](programming/theory/algorithm/)
+      - [commons](programming/theory/algorithm/commons/)
+        - [search](programming/theory/algorithm/commons/search/)
+          - [binary.md](programming/theory/algorithm/commons/search/binary.md)
+          - [linear.md](programming/theory/algorithm/commons/search/linear.md)
+        - [sort](programming/theory/algorithm/commons/sort/)
+          - [bubble.md](programming/theory/algorithm/commons/sort/bubble.md)
+          - [insertion.md](programming/theory/algorithm/commons/sort/insertion.md)
+          - [selection.md](programming/theory/algorithm/commons/sort/selection.md)
+      - [machine-learning](programming/theory/algorithm/machine-learning/)
+        - [naive-bayes-classifier.md](programming/theory/algorithm/machine-learning/naive-bayes-classifier.md)
+        - [tf-idf.md](programming/theory/algorithm/machine-learning/tf-idf.md)
+      - [binary-tree.md](programming/theory/algorithm/binary-tree.md)
+      - [dijkstra.md](programming/theory/algorithm/dijkstra.md)
+      - [hash.md](programming/theory/algorithm/hash.md)
+      - [stack&queue.md](programming/theory/algorithm/stack&queue.md)
+    - [data-structure](programming/theory/data-structure/)
+    - [design-pattern](programming/theory/design-pattern/)
+    - [software-architecture](programming/theory/software-architecture/)
+- [project-notes](project-notes/)
+  - [personal](project-notes/personal/)
+    - [blockchain](project-notes/personal/blockchain/)
+    - [e-commerce](project-notes/personal/e-commerce/)
+  - [team](project-notes/team/)
+  - [README.md](project-notes/README.md)
+- [summary](summary/)
+  - [README.md](summary/README.md)
+- [README.md](README.md)

@@ -14,15 +14,21 @@ Thư mục này chứa các **bảng ghi chú nhanh (cheatsheet)** – tập h�
 
 ## 📁 Nội dung hiện có
 
-| File / Thư mục         | Mô tả nội dung                                                                 |
-| ---------------------- | ------------------------------------------------------------------------------ |
-| `git/`                 | 📂 Tổng hợp kiến thức Git: cách dùng, lỗi thường gặp, và mục tiêu phổ biến     |
-| ├── `basic.md`         | Các lệnh cơ bản: `init`, `clone`, `add`, `commit`, `push`, `pull`...           |
-| ├── `common-target.md` | Các bước thường dùng: clone repo, tạo nhánh, push/pull đúng cách               |
-| ├── `common-error.md`  | Các lỗi phổ biến: sai email, lỗi auth, xung đột code (conflict), remote...     |
-| `markdown.md`          | Cú pháp viết Markdown: tiêu đề, in đậm, bảng, liên kết, code block, hình ảnh…  |
-| `regex.md`             | Biểu thức chính quy: tổng quan, ví dụ, ứng dụng tìm kiếm, validate dữ liệu     |
-| _(kế hoạch)_           | 📌 Có thể mở rộng thêm: `docker.md`, `http-status.md`, `vscode.md`, `linux.md` |
+## Git
+
+- [Cơ bản](git/basic.md)
+- [Lỗi phổ biến](git/common-error.md)
+- [Mục tiêu thường dùng](git/common-target.md)
+
+## Markdown
+
+- [Cú pháp cơ bản](markdown/syntax.md)
+- [Ví dụ](markdown/examples.md)
+
+## Regex
+
+- [Cơ bản](regex/basic.md)
+- [Pattern thường gặp](regex/common-patterns.md)
 
 ## 💡 Cách sử dụng
 
