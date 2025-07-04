@@ -55,7 +55,7 @@
       - [basic.md](cheatsheet/tools/git/basic.md)
       - [common-error.md](cheatsheet/tools/git/common-error.md)
       - [common-target.md](cheatsheet/tools/git/common-target.md)
-      - [test.md](cheatsheet/tools/git/test.md)
+      - [git-commit.md](cheatsheet/tools/git/git-commit.md)
     - [README.md](cheatsheet/tools/README.md)
     - [vscode](cheatsheet/tools/vscode/)
       - [vscode.md](cheatsheet/tools/vscode/vscode.md)
@@ -123,6 +123,5 @@
 - [README.md](README.md)
 - [summary](summary/)
   - [README.md](summary/README.md)
-- [SUMMARY.md](SUMMARY.md)
 
 <!-- MENU-END -->
