@@ -2,8 +2,6 @@
 
 Tổng hợp nhanh các lệnh Git thường dùng trong quá trình làm việc. Phù hợp cho người mới và cả khi quên cú pháp cần tra cứu nhanh.
 
----
-
 ## 📦 1. Cấu hình ban đầu
 
 ```bash
@@ -85,8 +83,6 @@ git remote -v                         # Xem remote hiện tại
 git remote add origin <url>           # Thêm remote mới
 git remote remove origin              # Xoá remote
 ```
-
----
 
 ## 💡 Mẹo thực chiến
 
