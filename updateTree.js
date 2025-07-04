@@ -14,21 +14,30 @@ const isIgnored = (name) =>
 
 function walk(dir, indent = 0) {
   let output = "";
-  const items = fs.readdirSync(dir).sort((a, b) => a.localeCompare(b));
+  const items = fs.readdirSync(dir).filter((item) => !isIgnored(item));
 
-  for (const item of items) {
-    if (isIgnored(item)) continue;
+  const files = items
+    .filter((item) => fs.statSync(path.join(dir, item)).isFile())
+    .sort((a, b) => a.localeCompare(b));
+
+  const folders = items
+    .filter((item) => fs.statSync(path.join(dir, item)).isDirectory())
+    .sort((a, b) => a.localeCompare(b));
+
+  const sortedItems = [...folders, ...files];
+
+  for (const item of sortedItems) {
     const fullPath = path.join(dir, item);
     const stat = fs.statSync(fullPath);
-    const relativePath = fullPath.replace(/\\/g, "/"); // cross-platform
+    const relativePath = fullPath.replace(/\\/g, "/");
 
     const indentStr = "  ".repeat(indent);
 
-    if (stat.isDirectory()) {
+    if (stat.isFile() && isMarkdown(item)) {
+      output += `${indentStr}- [${item}](${relativePath})\n`;
+    } else if (stat.isDirectory()) {
       output += `${indentStr}- [${item}](${relativePath}/)\n`;
       output += walk(fullPath, indent + 1);
-    } else if (isMarkdown(item)) {
-      output += `${indentStr}- [${item}](${relativePath})\n`;
     }
   }
 
