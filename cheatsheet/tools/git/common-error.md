@@ -1,3 +1,13 @@
+---
+title: "Common Error"
+description: ""
+tags: ["cheatsheet", "tools", "git"]
+category: "git"
+slug: "/cheatsheet/tools/git/common-error.md"
+createdAt: "2025-07-03T15:53:03"
+updatedAt: "2025-07-04T17:41:08"
+draft: false
+---
 ## 🔐 Tình huống: Chưa cấu hình Git hoặc cấu hình sai tài khoản
 
 ## 🧭 Kiểm tra cấu hình hiện tại:
