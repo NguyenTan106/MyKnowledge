@@ -131,7 +131,7 @@ function updateFile(filePath, relPath) {
   // So sánh từng trường (trừ updatedAt)
   for (const key in expected) {
     if (!deepEqual(fm[key], expected[key])) {
-      console.log(expected);
+      // console.log(expected);
       fm[key] = expected[key];
       changed = true;
     }
@@ -139,7 +139,7 @@ function updateFile(filePath, relPath) {
   // Nếu có thay đổi thì cập nhật updatedAt
   if (changed) {
     fm.updatedAt = formatLocalDate(new Date());
-    console.log(fm);
+    // console.log(fm);
   } else {
     fm.updatedAt = fm.updatedAt || mtime;
     // console.log("chạy tới đây:", fm);
