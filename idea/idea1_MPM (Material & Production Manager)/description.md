@@ -1,11 +1,11 @@
 ---
-title: "Idea1 MPM (Material & Production Manager)"
+title: "Description"
 description: ""
-tags: ["idea"]
-category: "idea"
-slug: "/idea/idea1_MPM (Material & Production Manager).md"
+tags: ["idea", "idea1_MPM (Material & Production Manager)"]
+category: "idea1_MPM (Material & Production Manager)"
+slug: "/idea/idea1_MPM (Material & Production Manager)/description.md"
 createdAt: "2025-07-11T12:14:36"
-updatedAt: "2025-07-11T12:29:42"
+updatedAt: "2025-07-11T15:10:31"
 draft: false
 ---
 # 🎯 Ý tưởng 1: Phần mềm quản lý nguyên liệu & sản xuất
@@ -19,7 +19,6 @@ draft: false
 - 📊 Thống kê
 - 📅 Lịch sản xuất
 - ⚙️ Cài đặt
-
 ___
 
 ## 📦 1. Module: Quản lý nguyên liệu
