@@ -1,11 +1,11 @@
 ---
 title: "Description"
 description: ""
-tags: ["idea", "idea1_MPM (Material & Production Manager)"]
-category: "idea1_MPM (Material & Production Manager)"
-slug: "/idea/idea1_MPM (Material & Production Manager)/description.md"
+tags: ["idea", "idea1_BMA"]
+category: "idea1_BMA"
+slug: "/idea/idea1_BMA/description.md"
 createdAt: "2025-07-11T12:14:36"
-updatedAt: "2025-07-11T15:10:31"
+updatedAt: "2025-07-11T23:58:08"
 draft: false
 ---
 # 🎯 Ý tưởng 1: Phần mềm quản lý nguyên liệu & sản xuất

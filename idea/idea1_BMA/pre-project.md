@@ -1,11 +1,11 @@
 ---
 title: "Pre Project"
 description: ""
-tags: ["idea", "idea1_MPM (Material & Production Manager)"]
-category: "idea1_MPM (Material & Production Manager)"
-slug: "/idea/idea1_MPM (Material & Production Manager)/pre-project.md"
+tags: ["idea", "idea1_BMA"]
+category: "idea1_BMA"
+slug: "/idea/idea1_BMA/pre-project.md"
 createdAt: "2025-07-11T12:42:53"
-updatedAt: "2025-07-11T15:13:27"
+updatedAt: "2025-07-11T23:58:08"
 draft: false
 ---
 # ✅ Tổng quan Stack đề xuất (hiện đại - dễ triển khai - có GUI đẹp)

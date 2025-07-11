@@ -1,3 +1,13 @@
+---
+title: "Table 4 Recipe"
+description: ""
+tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_1_nguyen_lieu", "1_thiet_ke_CSDL_prisma_schema", "1_xac_dinh_yeu_cau_du_lieu"]
+category: "1_xac_dinh_yeu_cau_du_lieu"
+slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/1_xac_dinh_yeu_cau_du_lieu/table_4_recipe.md"
+createdAt: "2025-07-11T21:56:55"
+updatedAt: "2025-07-11T23:58:08"
+draft: false
+---
 ## 📘 Bảng 4: `Recipe`
 
 ###  🎯 Mục tiêu

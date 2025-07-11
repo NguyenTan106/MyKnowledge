@@ -5,7 +5,7 @@ tags: ["cheatsheet", "tools", "git"]
 category: "git"
 slug: "/cheatsheet/tools/git/git-commit.md"
 createdAt: "2025-07-11T12:12:50"
-updatedAt: "2025-07-11T12:29:42"
+updatedAt: "2025-07-11T22:04:53"
 draft: false
 ---
 # Git Commit Message Chuẩn Chuyên Nghiệp & Thực Tế
