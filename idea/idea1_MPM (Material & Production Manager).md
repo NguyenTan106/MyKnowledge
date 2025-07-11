@@ -1,3 +1,13 @@
+---
+title: "Idea1 MPM (Material & Production Manager)"
+description: ""
+tags: ["idea"]
+category: "idea"
+slug: "/idea/idea1_MPM (Material & Production Manager).md"
+createdAt: "2025-07-11T12:14:36"
+updatedAt: "2025-07-11T12:29:42"
+draft: false
+---
 # 🎯 Ý tưởng 1: Phần mềm quản lý nguyên liệu & sản xuất
 
 ## 🖥️ Giao diện chính (Dashboard)
@@ -47,7 +57,7 @@ ___
 - Có thể **ghi chú từng bước**, ví dụ:
   - Nấu (Boiling): 90 phút
   - Lên men chính: 10 ngày
-  - Ủ lạnh: 7 ngày
+  - Ủ lạnh: 8 ngày
 
 ___
 

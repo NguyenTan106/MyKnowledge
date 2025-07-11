@@ -4,8 +4,8 @@ description: ""
 tags: ["cheatsheet", "tools", "git"]
 category: "git"
 slug: "/cheatsheet/tools/git/common-target.md"
-createdAt: "2025-07-03T15:53:03"
-updatedAt: "2025-07-05T08:48:41"
+createdAt: "2025-07-11T12:12:50"
+updatedAt: "2025-07-11T12:29:42"
 draft: false
 ---
 ## ✅ MỤC TIÊU THƯỜNG GẶP KHI DÙNG GIT
