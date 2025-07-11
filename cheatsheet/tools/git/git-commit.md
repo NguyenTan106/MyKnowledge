@@ -41,15 +41,16 @@ Viết commit message tốt giúp:
 
 ## ✅ 3. Các `type` thường dùng
 
-| Type       | Mô tả                                    |
-| ---------- | ---------------------------------------- |
-| `feat`     | Thêm mới tính năng                       |
-| `fix`      | Sửa lỗi                                  |
-| `docs`     | Cập nhật tài liệu                        |
-| `style`    | Sửa style, format, không ảnh hưởng logic |
-| `refactor` | Refactor code, không thay đổi logic      |
-| `test`     | Thêm hoặc sửa test                       |
-| `chore`    | Việc phụ trợ như config, script          |
+| Type       | Mô tả                                               |
+| ---------- | --------------------------------------------------- |
+| `feat`     | Thêm mới tính năng (feature)                        |
+| `fix`      | Sửa lỗi (bug fix)                                   |
+| `docs`     | Cập nhật hoặc cải tiến tài liệu                     |
+| `style`    | Sửa đổi về định dạng code, không ảnh hưởng logic    |
+| `refactor` | Tái cấu trúc code mà không làm thay đổi logic       |
+| `test`     | Thêm mới hoặc cập nhật các đoạn kiểm thử (tests)    |
+| `chore`    | Công việc phụ trợ như cấu hình, build script, CI/CD |
+
 
 ## ✅ 4. Ví dụ Commit Message Thực Tế
 

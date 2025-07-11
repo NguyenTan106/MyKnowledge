@@ -5,7 +5,7 @@ tags: ["idea", "idea1_MPM (Material & Production Manager)"]
 category: "idea1_MPM (Material & Production Manager)"
 slug: "/idea/idea1_MPM (Material & Production Manager)/pre-project.md"
 createdAt: "2025-07-11T12:42:53"
-updatedAt: "2025-07-11T15:00:16"
+updatedAt: "2025-07-11T15:13:27"
 draft: false
 ---
 # ✅ Tổng quan Stack đề xuất (hiện đại - dễ triển khai - có GUI đẹp)
