@@ -13,8 +13,8 @@ draft: false
 
 ### 🧩 1. Sơ Đồ ERD (Entity Relationship Diagram)
 🔗 Xem sơ đồ tại:
-👉 dbdiagram.io – Brewing Manager
-
+👉 [Brewing Manager](https://dbdiagram.io/d/brewing_manager-68712f8df413ba3508768e59)
+![alt text](ERD.png)
 ___
 
 ### 📦 2. Bảng `Ingredient`
