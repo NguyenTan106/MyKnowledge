@@ -5,7 +5,7 @@ tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_
 category: "1_xac_dinh_yeu_cau_du_lieu"
 slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/1_xac_dinh_yeu_cau_du_lieu/table_2_batch.md"
 createdAt: "2025-07-11T21:52:05"
-updatedAt: "2025-07-11T23:58:08"
+updatedAt: "2025-07-12T16:41:19"
 draft: false
 ---
 ## 🍺 Bảng 2: `Batch`
@@ -21,7 +21,7 @@ ___
 | `status`    | Enum/String  | ✅        | Trạng thái mẻ: `boiling`, `fermenting`, `cold_crashing`, `done` |
 | `startDate` | DateTime     | ✅        | Ngày bắt đầu nấu                                                |
 | `volume`    | Float        | ✅        | Sản lượng dự kiến (lít)                                         |
-| `note`      | String       | ❌        | Ghi chú: dùng men gì, điều chỉnh đặc biệt                       |
+| `notes`      | String       | ❌        | Ghi chú: dùng men gì, điều chỉnh đặc biệt                       |
 | `createdAt` | DateTime     | ✅        | Ngày tạo                                                        |
 | `updatedAt` | DateTime     | ✅        | Ngày cập nhật cuối cùng                                         |
 ___
@@ -35,7 +35,7 @@ ___
   "status": "cold_crashing",
   "startDate": "2025-07-03T00:00:00Z",
   "volume": 50,
-  "note": "Thêm hoa Cascade cuối",
+  "notes": "Thêm hoa Cascade cuối",
   "createdAt": "2025-07-03T08:00:00Z",
   "updatedAt": "2025-07-09T10:00:00Z"
 }

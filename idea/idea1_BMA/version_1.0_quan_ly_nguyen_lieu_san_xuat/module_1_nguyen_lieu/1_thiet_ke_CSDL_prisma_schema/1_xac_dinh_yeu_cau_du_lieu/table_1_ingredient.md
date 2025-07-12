@@ -5,7 +5,7 @@ tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_
 category: "1_xac_dinh_yeu_cau_du_lieu"
 slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/1_xac_dinh_yeu_cau_du_lieu/table_1_ingredient.md"
 createdAt: "2025-07-11T21:12:38"
-updatedAt: "2025-07-11T23:58:08"
+updatedAt: "2025-07-12T16:41:19"
 draft: false
 ---
 ## 📦 Bảng 1: `Ingredient`
@@ -23,7 +23,7 @@ ___
 | `quantity`          | Float        | ✅        | Số lượng tồn kho hiện tại                           |
 | `lowStockThreshold` | Float        | ✅        | Ngưỡng cảnh báo số lượng thấp                       |
 | `lastImportDate`    | DateTime     | ✅        | Ngày nhập gần nhất của nguyên liệu                  |
-| `note`              | String       | ❌        | Ghi chú bổ sung (nguồn gốc, cách dùng, đặc điểm...) |
+| `notes`              | String       | ❌        | Ghi chú bổ sung (nguồn gốc, cách dùng, đặc điểm...) |
 | `createdAt`         | DateTime     | ✅        | Ngày tạo bản ghi                                    |
 | `updatedAt`         | DateTime     | ✅        | Tự động cập nhật mỗi lần sửa                        |
 
@@ -38,7 +38,7 @@ ___
   "quantity": 850,
   "lowStockThreshold": 500,
   "lastImportDate": "2025-07-01T00:00:00Z",
-  "note": "Dùng cho IPA, hương cam chanh mạnh",
+  "notes": "Dùng cho IPA, hương cam chanh mạnh",
   "createdAt": "2025-07-01T10:15:00Z",
   "updatedAt": "2025-07-01T10:15:00Z"
 }

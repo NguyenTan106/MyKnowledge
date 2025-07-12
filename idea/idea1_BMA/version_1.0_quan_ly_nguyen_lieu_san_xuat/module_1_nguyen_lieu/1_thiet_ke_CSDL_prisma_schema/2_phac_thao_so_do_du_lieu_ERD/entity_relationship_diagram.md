@@ -1,11 +1,11 @@
 ---
-title: "2 Phac Thao So Do Du Lieu ERD"
+title: "Entity Relationship Diagram"
 description: ""
-tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_1_nguyen_lieu", "1_thiet_ke_CSDL_prisma_schema"]
-category: "1_thiet_ke_CSDL_prisma_schema"
-slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/2_phac_thao_so_do_du_lieu_ERD.md"
+tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_1_nguyen_lieu", "1_thiet_ke_CSDL_prisma_schema", "2_phac_thao_so_do_du_lieu_ERD"]
+category: "2_phac_thao_so_do_du_lieu_ERD"
+slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/2_phac_thao_so_do_du_lieu_ERD/entity_relationship_diagram.md"
 createdAt: "2025-07-11T21:16:12"
-updatedAt: "2025-07-11T23:58:08"
+updatedAt: "2025-07-12T16:41:19"
 draft: false
 ---
 ## 🍺 Brewing Manager – Thiết kế Cơ Sở Dữ Liệu (ERD)
