@@ -5,7 +5,7 @@ tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_
 category: "4_viet_prisma_schema"
 slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/4_viet_prisma_schema/step_3_prisma_migration.md"
 createdAt: "2025-07-12T14:46:10"
-updatedAt: "2025-07-12T16:43:07"
+updatedAt: "2025-07-12T16:50:40"
 draft: false
 ---
 # 🚀 Tạo database và Prisma Client
@@ -21,7 +21,7 @@ draft: false
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
+  // output   = "../generated/prisma"
 }
 
 datasource db {
@@ -105,7 +105,7 @@ model RecipeIngredient {
 ```bash
 npx prisma migrate dev --name init
 ```
-
+*📌 Lúc này kiểm tra lại database đã được khởi tạo các bảng dữ liệu (tables) mong muốn chưa*
 ___
 
 ### ✅ Bước 2: Tạo Prisma Client
@@ -114,7 +114,7 @@ ___
 npx prisma generate
 ```
 
-**2. Tạo file `prisma.ts` hoặc `seed.ts`:**
+**2. Tạo file `prisma/prisma.ts` hoặc `prisma/seed.ts`**
 - Gọi `PrismaClient` từ thư viện:
 - Tham khảo đầy đủ ở [docs](https://www.prisma.io/docs/orm/prisma-client/setup-and-configuration/introduction#3-importing-prisma-client) của Prisma
 
@@ -124,7 +124,21 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 // use `prisma` in your application to read and write data in your DB
 
-async function main() {}
+async function main() {
+  await prisma.ingredient.create({
+    data: {
+      name: "Cascade",
+      type: "hop",
+      unit: "g",
+      quantity: 850,
+      lowStockThreshold: 500,
+      lastImportDate: "2025-07-01T00:00:00Z",
+      notes: "Dùng cho IPA, hương cam chanh mạnh",
+      createdAt: "2025-07-01T10:15:00Z",
+      updatedAt: "2025-07-01T10:15:00Z",
+    },
+  });
+}
 
 main()
   .then(() => {
@@ -138,3 +152,10 @@ main()
     await prisma.$disconnect();
   });
 ```
+
+**3. Sau đó chạy lệnh**
+```bash
+npx prisma db seed
+```
+
+*📌 Kiểm tra kết quả được tạo ra trong database*
