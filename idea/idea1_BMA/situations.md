@@ -5,7 +5,7 @@ tags: ["idea", "idea1_BMA"]
 category: "idea1_BMA"
 slug: "/idea/idea1_BMA/situations.md"
 createdAt: "2025-07-13T11:51:42"
-updatedAt: "2025-07-13T20:33:00"
+updatedAt: "2025-07-15T09:01:04"
 draft: false
 ---
 ## 🏭 Tình huống thực tế: "Mẻ Bia Trễ Hạn"
