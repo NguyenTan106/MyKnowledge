@@ -5,7 +5,7 @@ tags: ["idea", "idea1_BMA", "version_1.0_quan_ly_nguyen_lieu_san_xuat", "module_
 category: "4_viet_prisma_schema"
 slug: "/idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_1_nguyen_lieu/1_thiet_ke_CSDL_prisma_schema/4_viet_prisma_schema/step_3_prisma_migration.md"
 createdAt: "2025-07-12T14:46:10"
-updatedAt: "2025-07-12T16:50:40"
+updatedAt: "2025-07-12T17:55:38"
 draft: false
 ---
 # 🚀 Tạo database và Prisma Client

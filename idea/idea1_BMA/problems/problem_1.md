@@ -4,8 +4,8 @@ description: ""
 tags: ["idea", "idea1_BMA", "problems"]
 category: "problems"
 slug: "/idea/idea1_BMA/problems/problem_1.md"
-createdAt: "2025-07-13T12:09:15"
-updatedAt: "2025-07-13T20:42:50"
+createdAt: "2025-07-16T21:21:36"
+updatedAt: "2025-07-16T23:31:48"
 draft: false
 ---
 # 🧩 Vấn đề:

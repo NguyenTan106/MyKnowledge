@@ -4,8 +4,8 @@ description: ""
 tags: ["idea", "idea1_BMA"]
 category: "idea1_BMA"
 slug: "/idea/idea1_BMA/functions.md"
-createdAt: "2025-07-13T11:57:55"
-updatedAt: "2025-07-13T20:43:17"
+createdAt: "2025-07-16T21:21:36"
+updatedAt: "2025-07-16T23:31:48"
 draft: false
 ---
 ## ✅ Tóm tắt theo thứ tự ưu tiên triển khai:
