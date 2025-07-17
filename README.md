@@ -100,6 +100,7 @@
       - [module_2_me_nau](idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_2_me_nau/)
         - [README.md](idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_2_me_nau/README.md)
       - [module_3_cong_thuc](idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_3_cong_thuc/)
+        - [api_update_recipe.md](idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_3_cong_thuc/api_update_recipe.md)
         - [README.md](idea/idea1_BMA/version_1.0_quan_ly_nguyen_lieu_san_xuat/module_3_cong_thuc/README.md)
     - [description.md](idea/idea1_BMA/description.md)
     - [functions.md](idea/idea1_BMA/functions.md)
