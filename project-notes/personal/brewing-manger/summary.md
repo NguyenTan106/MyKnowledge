@@ -21,6 +21,7 @@ draft: false
 | GET    | `/api/total-ingredients`                   | [Tổng số nguyên liệu hiện có trong kho](server/api/ingredient/get_api_total_ingredients.md)     |
 | GET    | `/api/total-ingredients-stock-status`      | [Tổng nguyên liệu theo trạng thái tồn kho](server/api/ingredient/get_total_ingredients_stock_status.md)  |
 
+
 ___
 
 ### Type (Loại nguyên liệu)
