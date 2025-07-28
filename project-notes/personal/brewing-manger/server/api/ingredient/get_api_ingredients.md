@@ -5,7 +5,7 @@ tags: ["project-notes", "personal", "brewing-manger", "server", "api", "ingredie
 category: "ingredient"
 slug: "/project-notes/personal/brewing-manger/server/api/ingredient/get_api_ingredients.md"
 createdAt: "2025-07-25T10:33:10"
-updatedAt: "2025-07-26T06:36:03"
+updatedAt: "2025-07-26T06:36:22"
 draft: false
 ---
 # 🧩 Service

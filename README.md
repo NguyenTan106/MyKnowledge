@@ -219,6 +219,8 @@
             - [get_total_ingredients_stock_status.md](project-notes/personal/brewing-manger/server/api/ingredient/get_total_ingredients_stock_status.md)
             - [post_api_ingredient.md](project-notes/personal/brewing-manger/server/api/ingredient/post_api_ingredient.md)
             - [put_api_ingredient_id.md](project-notes/personal/brewing-manger/server/api/ingredient/put_api_ingredient_id.md)
+          - [login](project-notes/personal/brewing-manger/server/api/login/)
+            - [README.md](project-notes/personal/brewing-manger/server/api/login/README.md)
           - [recipe](project-notes/personal/brewing-manger/server/api/recipe/)
             - [delete_api_recipe_id.md](project-notes/personal/brewing-manger/server/api/recipe/delete_api_recipe_id.md)
             - [get_api_pagination_recipes.md](project-notes/personal/brewing-manger/server/api/recipe/get_api_pagination_recipes.md)

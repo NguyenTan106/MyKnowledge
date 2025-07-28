@@ -5,7 +5,7 @@ tags: ["project-notes", "personal", "brewing-manger"]
 category: "brewing-manger"
 slug: "/project-notes/personal/brewing-manger/summary.md"
 createdAt: "2025-07-25T09:59:21"
-updatedAt: "2025-07-26T06:33:03"
+updatedAt: "2025-07-28T13:45:47"
 draft: false
 ---
 ## 📦 API Documentation (Tổng hợp tất cả các API đã tạo)
@@ -60,5 +60,30 @@ ___
 | GET    | `/api/top-5-recipes-most-used`         | [Top 5 công thức sử dụng nhiều nhất](server/api/recipe/get_api_top5_most_used.md) |
 | GET    | `/api/top-5-recipes-week-month-year`   | [Top 5 công thức cập nhật gần đây](server/api/recipe/get_api_top5_by_time.md)     |
 
+___
+
+### ActivityLog (Nhật kí hoạt động)
+| Method | Endpoint                               | Mô tả                                                                             |
+| ------ | -------------------------------------- | --------------------------------------------------------------------------------- |
+| GET    | `/api/activity-logs`                         | [Lấy tất cả nhật kí hoạt động](server/api/activityLog/get_api_activityLogs.md)                      |
+| GET    | `/api/activity-log/:id`                     | [Lấy nhật kí hoạt động theo ID](server/api/activityLog/get_api_activityLog_id.md)                   |
+| GET    | `/api/pagination-activity-log` | [Phân trang nhật kí hoạt động](server/api/activityLog/get_api_pagination_activityLog.md)           |
 
 ___
+
+### User (Người dùng)
+| Method | Endpoint                               | Mô tả                                                                             |
+| ------ | -------------------------------------- | --------------------------------------------------------------------------------- |
+| GET    | `/api/users`                         | [Lấy tất cả người dùng](server/api/user/get_api_users.md)                      |
+| GET    | `/api/user/:id`                     | [Lấy người dùng theo ID](server/api/user/get_api_user_id.md)                   |
+| POST | `/api/create-user`                     | [Thêm người dùng mới](server/api/user/post_api_user.md) |
+| POST | `/api/user-login`                     | [Đăng nhập](server/api/user/login_api_user.md) |
+| PUT | `/api/update-user/:id`                     | [Cập nhật người dùng theo ID](server/api/user/put_api_user_id.md) |
+| DELETE | `/api/delete-user/:id`                     | [Xóa người dùng theo ID](server/api/user/delete_api_user_id.md) |
+
+
+___
+### IngredientImport (Nhập kho)
+| Method | Endpoint                               | Mô tả                                                                             |
+| ------ | -------------------------------------- | --------------------------------------------------------------------------------- |
+| POST    | `/api/ingredient-imports`                         | [Nhập kho nguyên liệu](server/api/ingredientImport/post_api_ingredientImports.md)                      |
